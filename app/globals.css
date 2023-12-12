@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h2 {
+  @apply text-[#ff63d7] font-bold text-2xl sm:text-3xl;
+}
+
+p {
+  @apply text-neutral-500;
+}

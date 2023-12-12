@@ -38,7 +38,7 @@ export default function Header() {
             At solmen va esser necessi fa uniform grammatica, pronunciation plu
             sommun paroles.
           </h3>
-          <button className='bg-pink-400 px-5 py-3 rounded-lg text-2xl hover:bg-pink-600'>
+          <button className='bg-[#ff63d7] px-5 py-3 rounded-lg text-2xl hover:bg-pink-600'>
             JOIN US NOW
           </button>
         </div>
