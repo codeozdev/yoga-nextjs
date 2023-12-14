@@ -1,13 +1,13 @@
 import Image from 'next/image'
 
-export default function Advantages() {
+export default function AdvantagesMobil() {
   return (
-    <div className='flex flex-col items-center justify-center my-10 bg-[#fdfdfd] pt-10 overflow-x-hidden'>
+    <div className='bg-[#666666] text-center pt-4'>
       <div>
         <h2 className='text-[#ff63d7] text-xl sm:text-2xl mb-2'>
           The Best Class for your Yoga Center
         </h2>
-        <p className='text-sm'>
+        <p className='text-sm text-white'>
           At solmen li esser necessi uniform grammatica, pronunciation
         </p>
       </div>
@@ -18,11 +18,13 @@ export default function Advantages() {
           width={1400}
           height={500}
           quality={100}
-          className='object-cover w-full sm:h-[850px] 3xl:h-[1100px]'
+          className='object-cover w-full h-[750px]'
         />
-        {/* LEFT */}
-        <div className='absolute sm:top-[9rem] sm:left-52 3xl:top-40 3xl:left-96 w-[600px]'>
-          <div className='flex flex-col items-end'>
+
+        <div className='absolute inset-0 w-full h-full bg-black opacity-60' />
+
+        <div className='absolute top-[2rem] left-[%30] w-full'>
+          <div className='flex flex-col justify-center items-center text-center w-[300px] mx-auto'>
             <Image
               src='/mind-soul.png'
               alt='shape'
@@ -30,14 +32,14 @@ export default function Advantages() {
               height={40}
               className='object-cover'
             />
-            <h3 className='font-medium text-lg'>Mind and soul</h3>
-            <p className='w-[400px] text-end'>
+            <h3 className='text-[#ff63d7]'>Mind and soul</h3>
+            <p className='text-white text-sm'>
               A un Angleso semblar un simplificat Angles, quam un skepticbridge.
             </p>
           </div>
         </div>
-        <div className='absolute sm:top-[19rem] sm:left-16 3xl:top-96 3xl:left-60 w-[600px]'>
-          <div className='flex flex-col items-end'>
+        <div className='absolute top-[10rem] left-[%30] w-full'>
+          <div className='flex flex-col justify-center items-center text-center w-[300px] mx-auto'>
             <Image
               src='/1.png'
               alt='shape'
@@ -45,14 +47,14 @@ export default function Advantages() {
               height={40}
               className='object-cover'
             />
-            <h3 className='font-medium text-lg'>Good for health</h3>
-            <p className='w-[400px] text-end'>
+            <h3 className='text-[#ff63d7]'>Good for health</h3>
+            <p className='text-white text-sm'>
               A un Angleso semblar un simplificat Angles, quam un skepticbridge.
             </p>
           </div>
         </div>
-        <div className='absolute sm:top-[30rem] sm:-left-20 3xl:top-[36rem] 3xl:left-20 w-[600px]'>
-          <div className='flex flex-col items-end'>
+        <div className='absolute top-[18rem] left-[%30] w-full'>
+          <div className='flex flex-col justify-center items-center text-center w-[300px] mx-auto'>
             <Image
               src='/2.png'
               alt='shape'
@@ -60,15 +62,14 @@ export default function Advantages() {
               height={40}
               className='object-cover'
             />
-            <h3 className='font-medium text-lg'>Relaxation and Refresh</h3>
-            <p className='w-[400px] text-end'>
+            <h3 className='text-[#ff63d7]'>Relaxation and Refresh</h3>
+            <p className='text-white text-sm'>
               A un Angleso semblar un simplificat Angles, quam un skepticbridge.
             </p>
           </div>
         </div>
-        {/* RIGHT */}
-        <div className='absolute sm:top-[9rem] sm:right-52 3xl:top-40 3xl:right-96 w-[600px]'>
-          <div className='flex flex-col items-start'>
+        <div className='absolute top-[25rem] left-[%30] w-full'>
+          <div className='flex flex-col justify-center items-center text-center w-[300px] mx-auto'>
             <Image
               src='/3.png'
               alt='shape'
@@ -76,14 +77,14 @@ export default function Advantages() {
               height={40}
               className='object-cover'
             />
-            <h3 className='font-medium text-lg'>Yoga for real energy</h3>
-            <p className='w-[400px] text-start'>
+            <h3 className='text-[#ff63d7]'>Yoga for real energy</h3>
+            <p className='text-white text-sm'>
               A un Angleso semblar un simplificat Angles, quam un skepticbridge.
             </p>
           </div>
         </div>
-        <div className='absolute sm:top-[21rem] sm:right-16 3xl:top-96 3xl:right-60 w-[600px]'>
-          <div className='flex flex-col items-start'>
+        <div className='absolute top-[33rem] left-[%30] w-full'>
+          <div className='flex flex-col justify-center items-center text-center w-[300px] mx-auto'>
             <Image
               src='/4.png'
               alt='shape'
@@ -91,14 +92,14 @@ export default function Advantages() {
               height={40}
               className='object-cover'
             />
-            <h3 className='font-medium text-lg'>Renewing your mind</h3>
-            <p className='w-[400px] text-start'>
+            <h3 className='text-[#ff63d7]'>Renewing your mind</h3>
+            <p className='text-white text-sm'>
               A un Angleso semblar un simplificat Angles, quam un skepticbridge.
             </p>
           </div>
         </div>
-        <div className='absolute sm:top-[30rem] sm:-right-20 3xl:top-[36rem] 3xl:right-20 w-[600px]'>
-          <div className='flex flex-col items-start'>
+        <div className='absolute top-[39rem] left-[%30] w-full'>
+          <div className='flex flex-col justify-center items-center text-center w-[300px] mx-auto'>
             <Image
               src='/2.png'
               alt='shape'
@@ -106,8 +107,8 @@ export default function Advantages() {
               height={40}
               className='object-cover rotate-45'
             />
-            <h3 className='font-medium text-lg'>Meditation classes</h3>
-            <p className='w-[400px] text-start'>
+            <h3 className='text-[#ff63d7]'>Meditation classes</h3>
+            <p className='text-white text-sm'>
               A un Angleso semblar un simplificat Angles, quam un skepticbridge.
             </p>
           </div>

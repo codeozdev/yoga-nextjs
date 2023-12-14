@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <div className='relative h-96 w-full'>
       <Image src='/yoga-header.jpg' alt='yoga' fill className='object-cover' />
-      <div className='absolute inset-0 w-full h-full bg-black opacity-40'></div>
+      <div className='absolute inset-0 w-full h-full bg-black opacity-40' />
       <div className='absolute text-neutral-50 w-full pt-5 h-full'>
         {/*YOGA CENTER*/}
         <div className='flex sm:flex-row flex-col items-center justify-between gap-5 sm:gap-10 container font-medium'>
