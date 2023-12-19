@@ -3,7 +3,7 @@ import { IoMdFlash } from 'react-icons/io'
 
 export default function YogaCenter() {
   return (
-    <div className='bg-neutral-100 pt-10 sm:pt-0 my-10 w-full'>
+    <div className='bg-neutral-100 pt-10 sm:pt-0 sm:my-10 w-full'>
       <div className='flex sm:flex-row flex-col justify-center items-center gap-10 sm:container sm:px-20'>
         {/* LEFT */}
         <div className='text-center sm:text-start sm:w-[500px]'>
@@ -38,6 +38,7 @@ export default function YogaCenter() {
           height={500}
           quality={100}
           className='object-cover h-[362px] w-[44rem]'
+          sizes='(min-width: 1540px) 704px, (min-width: 1280px) 620px, (min-width: 780px) 543px, (min-width: 640px) 480px, 100vw'
         />
       </div>
     </div>

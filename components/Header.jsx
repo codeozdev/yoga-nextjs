@@ -6,7 +6,14 @@ import { FiPhone } from 'react-icons/fi'
 export default function Header() {
   return (
     <div className='relative h-96 w-full'>
-      <Image src='/yoga-header.jpg' alt='yoga' fill className='object-cover' />
+      <Image
+        src='/yoga-header.jpg'
+        alt='yoga'
+        fill
+        className='object-cover'
+        priority='true'
+        sizes='100vw'
+      />
       <div className='absolute inset-0 w-full h-full bg-black opacity-40' />
       <div className='absolute text-neutral-50 w-full pt-5 h-full'>
         {/*YOGA CENTER*/}
@@ -19,9 +26,9 @@ export default function Header() {
             <Image
               src='/logo1.png'
               alt='logo'
-              width={100}
-              height={100}
-              className='pointer-events-none select-none'
+              width={250}
+              height={250}
+              className='pointer-events-none select-none w-auto h-auto'
             />
           </div>
           <div className='flex items-center gap-2'>

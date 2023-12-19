@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function AdvantagesMobil() {
   return (
-    <div className='bg-[#666666] text-center pt-4'>
+    <div className='bg-[#666666] text-center pt-10'>
       <div>
         <h2 className='text-[#ff63d7] text-xl sm:text-2xl mb-2'>
           The Best Class for your Yoga Center
@@ -19,6 +19,7 @@ export default function AdvantagesMobil() {
           height={500}
           quality={100}
           className='object-cover w-full h-[750px]'
+          sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
         />
 
         <div className='absolute inset-0 w-full h-full bg-black opacity-60' />

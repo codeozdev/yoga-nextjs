@@ -12,7 +12,13 @@ export default function YogaComponent() {
         {/*GRID*/}
         <div className='grid sm:grid-cols-3 gap-4 sm:gap-16 mt-7'>
           <div className='flex flex-col items-center w-[202px] text-center'>
-            <Image src='/flower.png' alt='flower' width={100} height={100} />
+            <Image
+              src='/new.svg'
+              alt='flower'
+              width={100}
+              height={100}
+              className='w-[201.98px] h-[152px]'
+            />
             <h3 className='font-bold text-xl'>Choose the class</h3>
             <p className='text-neutral-500 text-sm'>
               It va esser tam simplic quam Occidental in fact, it va esser
@@ -20,7 +26,13 @@ export default function YogaComponent() {
             </p>
           </div>
           <div className='flex flex-col items-center w-[202px] text-center'>
-            <Image src='/1.svg' alt='flower' width={100} height={100} />
+            <Image
+              src='/1.svg'
+              alt='flower'
+              width={100}
+              height={100}
+              className='w-auto h-auto'
+            />
             <h3 className='font-bold text-xl'>Workout Routines</h3>
             <p className='text-neutral-500 text-sm'>
               It va esser tam simplic quam Occidental A un gleso va semblar
@@ -33,7 +45,7 @@ export default function YogaComponent() {
               alt='flower'
               width={100}
               height={100}
-              className='sm:pt-3'
+              className='sm:pt-3 w-auto h-auto'
             />
             <h3 className='font-bold text-xl'>Yoga challenge</h3>
             <p className='text-neutral-500 text-sm'>
